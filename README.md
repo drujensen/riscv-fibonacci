@@ -64,7 +64,7 @@ Last benchmark was ran on February 12, 2023
 
 | Language | Total | Compile | Time, s | Run | Time, s | Ext |
 |----------|-------|---------|---------|-----|---------|-----|
-| Java |  366.072 | javac Fib.java |    9.257 | java Fib |  356.815 | java |
+| Java |    9.231 | javac Fib.java |    3.740 | java Fib |    5.491 | java |
 
 ## VM compiled before execution, mixed/dynamically typed
 
