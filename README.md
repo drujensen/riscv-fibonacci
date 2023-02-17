@@ -56,6 +56,7 @@ Last benchmark was ran on February 12, 2023
 |----------|-------|---------|---------|-----|---------|-----|
 | C |    2.228 | gcc -O3 -o fib fib.c |    0.821 | ./fib |    1.407 | c |
 | C++ |    2.343 | g++ -O3 -o fib fib.cpp |    0.927 | ./fib |    1.416 | cpp |
+| Assembly |    7.202 | gcc -O3 -o fib fib.s |    0.244 | ./fib |    6.958 | s |
 | Go |    8.689 | go build fib.go |    0.889 | ./fib |    7.800 | go |
 | Rust |   10.766 | rustc -C opt-level=3 fib.rs |    3.454 | ./fib |    7.312 | rs |
 
